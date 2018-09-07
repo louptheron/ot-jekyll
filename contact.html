@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Contact us!
-permalink: /contact/
+permalink: "/contact/"
+layout: page
 ---
 
 <!-- Slider Start -->

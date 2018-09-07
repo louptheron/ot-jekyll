@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Our Work
-permalink: /work/
+permalink: "/work/"
+layout: page
 ---
 
     <!-- Slider Start -->
