@@ -102,7 +102,10 @@ blockquote p {
   display: -webkit-flex;
   flex-wrap: wrap;
 }
-
+.instagram-logo {
+  height: 40px;
+  margin-top: -3px;
+}
 /*--
 	Header Start
 --*/
@@ -269,7 +272,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Feature Start
 --*/
-#feature {
+.feature {
   background: url("../img/slider/feature.png");
   background-position: 50% 94px;
   width: 100%;
@@ -291,21 +294,105 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#feature h2 {
+.feature h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature {
+.feature {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
+.feature .btn-view-works {
   background: #655e7a;
   color: #fff;
   padding: 10px 20px;
 }
-#feature .section-title {
+.feature .section-title {
+  margin-bottom: 0px;
+}
+/*--
+	Entreprise Start
+--*/
+.entreprise {
+  background: url("../img/slider/feature.png");
+  background-position: 50% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+}
+.entreprise h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.entreprise {
+  color: #8d8f92;
+  margin-bottom: 20px;
+}
+.entreprise .btn-view-works {
+  background: #655e7a;
+  color: #fff;
+  padding: 10px 20px;
+}
+.entreprise .section-title {
+  margin-bottom: 0px;
+}
+/*--
+	Privee Start
+--*/
+.privee {
+  background: url("../img/slider/feature.png");
+  background-position: 50% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+}
+.privee h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.privee {
+  color: #8d8f92;
+  margin-bottom: 20px;
+}
+.privee .btn-view-works {
+  background: #655e7a;
+  color: #fff;
+  padding: 10px 20px;
+}
+.privee .section-title {
   margin-bottom: 0px;
 }
 /*--
