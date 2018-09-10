@@ -2,10 +2,23 @@
 title: Airspace
 permalink: "/"
 layout: page
+slider:
+  text_color: white
+  shadow_color: black
+  slides: 
+    - image: /img/slider/truffe_blanche_st_jacques.png
+      slide_html: ""
+    - image: /img/slider/HD-250614-Soir-7-fs8.png
+      slide_html: ""
+    - image: /img/slider/champagne_prestation.png
+      slide_html: ""
 ---
 
 <!-- Slider Start -->
-<section id="slider">
+{% if page.slider %}
+  {% include slider.html height="50" unit="%" transition="fade" duration="4" %}
+{% endif %}
+{% comment %} <section id="slider">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-2">
@@ -16,7 +29,7 @@ layout: page
       </div>
     </div>
   </div>
-</section>
+</section> {% endcomment %}
 <!-- Wrapper Start -->
 <section id="intro">
   <div class="container">

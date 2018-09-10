@@ -97,15 +97,8 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
-#slider {
-  background: url("../img/truffe_blanche_st_jacques.png") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 0%;
-  padding: 200px 0 280px 0;
-  position: relative;
-}
-#slider:before {
+
+#myCarousel:before {
   content: "";
   position: absolute;
   left: 0;
@@ -117,10 +110,10 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #7f3589, white);
   opacity: 0.4;
 }
-#slider .block {
+#myCarousel .block {
   color: black;
 }
-#slider .block h1 {
+#myCarousel .block h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 45px;
@@ -128,7 +121,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
-#slider .block p {
+#myCarousel .block p {
   font-size: 23px;
   line-height: 40px;
   font-family: "Roboto", sans-serif;
