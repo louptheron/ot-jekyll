@@ -39,22 +39,24 @@ $(document).ready(function() {
 
   // Instagram slider
 
-  var feed = new Instafeed({
-    get: "user",
-    userId: "4772115359",
-    clientId: "ff26e99e618d40d29dee0fe1b9966062",
-    accessToken: "4772115359.1677ed0.403989aa2e764a9e90b7bc0900f2bf88",
-    template:
-      '<div><a target="_blank" href="{{link}}"><img src="{{image}}" /></a></div>'
-  });
-  feed.run();
-
-  $(window).load(function() {
-    $("#instafeed").owlCarousel({
-      autoPlay: 3000,
-      items: 5,
-      itemsDesktop: [1199, 5],
-      itemsDesktopSmall: [979, 5]
+  if ($("#instafeed").length) {
+    var feed = new Instafeed({
+      get: "user",
+      userId: "4772115359",
+      clientId: "ff26e99e618d40d29dee0fe1b9966062",
+      accessToken: "4772115359.1677ed0.403989aa2e764a9e90b7bc0900f2bf88",
+      template:
+        '<div><a target="_blank" href="{{link}}"><img src="{{image}}" /></a></div>'
     });
-  });
+    feed.run();
+
+    $(window).load(function() {
+      $("#instafeed").owlCarousel({
+        autoPlay: 3000,
+        items: 5,
+        itemsDesktop: [1199, 5],
+        itemsDesktopSmall: [979, 5]
+      });
+    });
+  }
 });
