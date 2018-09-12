@@ -175,6 +175,19 @@ px      68    160    252    */
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .navbar-header-top-right {
+    position: relative;
+  }
+  .navbar-header-top-left {
+    position: relative;
+  }
+  header .navbar-header-top {
+    text-align: center;
+  }
+  #intro {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   #slider {
     padding-top: 90px;
     padding-bottom: 100px;
@@ -205,7 +218,7 @@ px      68    160    252    */
 	service Start 
 --*/
   #service {
-    padding-top: 100px;
+    padding: 0 0;
   }
   #service .thumbnail {
     padding-bottom: 70px;
@@ -244,6 +257,9 @@ px      68    160    252    */
 --*/
   #features .features-img {
     text-align: center;
+  }
+  .feature {
+    padding: 40px 0;
   }
   /*---------------------------------------------
 					Index Close 

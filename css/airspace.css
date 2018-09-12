@@ -148,21 +148,15 @@ header .navbar-header-top {
 header .navbar-header-top a {
   color: #666;
 }
-@media screen and (min-width: 700px) {
-  .navbar-header-top-right {
-    position: absolute;
-    right: 0px;
-  }
-  .navbar-header-top-left {
-    position: absolute;
-    left: 0px;
-  }
+.navbar-header-top-right {
+  position: absolute;
+  right: 0px;
 }
-@media screen and (max-width: 699px) {
-  header .navbar-header-top {
-    text-align: center;
-  }
+.navbar-header-top-left {
+  position: absolute;
+  left: 0px;
 }
+
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -204,7 +198,8 @@ header .navbar-header-top a {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -233,7 +228,7 @@ header .navbar-header-top a {
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 80px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
@@ -308,7 +303,7 @@ header .navbar-header-top a {
   overflow: visible;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right center;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -319,16 +314,14 @@ header .navbar-header-top a {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  color: #8d8f92;
+  margin-bottom: 20px;
   padding: 100px 0;
 }
 .feature h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
-}
-.feature {
-  color: #8d8f92;
-  margin-bottom: 20px;
 }
 .feature .btn-view-works {
   background: #655e7a;
@@ -370,7 +363,6 @@ header .navbar-header-top a {
 }
 .entreprise {
   color: #8d8f92;
-  margin-bottom: 20px;
 }
 .entreprise .btn-view-works {
   background: #655e7a;
@@ -384,7 +376,7 @@ header .navbar-header-top a {
 	Privee Start
 --*/
 .privee {
-  background: url("../img/slider/feature.png");
+  background: url("../img/slider/feature_copy.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
