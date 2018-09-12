@@ -628,6 +628,12 @@ header .navbar-header-top a {
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
 }
+.overly .position-center > p {
+  margin-right: 2em;
+}
+.overly .position-center > h2 {
+  margin-right: 1em;
+}
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
   position: absolute;
   top: 50%;
