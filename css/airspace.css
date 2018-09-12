@@ -497,6 +497,19 @@ header .navbar-header-top a {
 }
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
+  min-height: 80px;
+}
+#clients-logo-section .clients-logo-img > img {
+  max-width: 200px;
+  max-height: 80px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.owl-wrapper {
+  vertical-align: middle;
+  text-align: center;
 }
 /*---------------------------------------------
 					Work Start
