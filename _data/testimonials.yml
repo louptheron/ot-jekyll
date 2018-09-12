@@ -1,16 +1,39 @@
-- name: Rose Ray
-  title: CEO-Themefisher
-  testimonial: "This company created an e-commerce site with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray sr.
-  title: CEO-Themefisher
-  testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray jr.
-  title: CEO-Themefisher
-  testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray III
-  title: CEO-Themefisher
-  testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
-  image: img/item-img1.jpg
+- name: Emily
+  company: Groupe F
+  testimonial: "Je voulais vous remercier vivement pour la prestation du 14 juillet, votre disponibilité en un temps record à J-7 et l’équipe sur place qui a parfaitement géré le cocktail que Groupe F désirait."
+- name: Dominique & Zoé
+  company: AUDITOIRE
+  testimonial: "Un simple merci sincère...une réussite sans anicroche dû à votre professionnalisme et réactivité. A transmettre à vos équipes... Un client satisfait, que demander de plus !"
+- name: Céline & Simon
+  company: Particulier (Mariage)
+  testimonial: "Le repas a été excellent à tout point de vue. Votre équipe a été a l'écoute de nos petits tracas de dernière minute. Nous remercions tout particulièrement le responsable de la soirée qui a su nous apporter les solutions adaptées."
+- name: Hélène V.
+  company: MAF
+  testimonial: "Super prestation aujourd’hui, merci tout le monde s’est régalé !"
+- name: Stéphanie
+  company: Particulier (Mariage)
+  testimonial: "Tout d'abord nous tenions à vous remercier car tout  était parfait. Le maître d'hôtel aux petits soins et le repas excellent. J'ai été complètement détendue car j'ai eu la chance de vous avoir. Tout a été géré parfaitement."
+- name: S. S.
+  company: Havas Event
+  testimonial: "Un grand merci pour vos prestations et votre implication sur les Journées Particulières LVMH car c'est grâce à vous tous que nous avons réussi à réaliser un si bel événement !"
+- name: Clément D.
+  company: FFT
+  testimonial: "Je voulais à nouveau remercier Olivier Théron pour la qualité de la prestation et la réactivité/flexibilité dont il a su faire preuve. Je n’ai que des bons retours ! "
+- name: Alice & Florian
+  company: Particulier (Mariage)
+  testimonial: "Nous avons eu de très nombreux compliments de la part de nos invités sur l'ensemble du repas et tout particulièrement le cocktail."
+- name: S. d. C.
+  company: CRE-RATP
+  testimonial: "Je tiens à vous remercier pour la qualité de la prestation que nous avons eu le plaisir de déguster ce soir. Chacun a pu apprécier les mets servis mais également le professionnalisme de chaque membre de l'équipe. "
+- name: C. B.
+  company: Actance
+  testimonial: "Nous voulions vous remercier pour la soirée de vendredi dernier qui a été une grande réussite. Nous n'avons eu que des retours positifs à tous points de vue : le diner, l'animation et la salle. Merci encore pour cette belle organisation."
+- name: E.K
+  company: Hubee
+  testimonial: "Humeur et professionnalisme à toute épreuve. Bonne journée à vous, au plaisir d'une collaboration sur un évènement prochain."
+- name: Sylvain H.
+  company: DANONE
+  testimonial: "Je souhaitais vous remercier pour la qualité de votre prestation au Stade de France pour le catering de nos équipes. C'était parfait !"
+- name: F. F-M.
+  company: Vivant Chiss
+  testimonial: "C’était vraiment délicieux, original, agréable, bien servi, bref, nous avons tous été très contents !"
