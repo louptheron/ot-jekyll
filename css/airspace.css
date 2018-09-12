@@ -1065,3 +1065,7 @@ footer .footer-manu ul li a:hover {
   transition: all 220ms ease-in-out;
   object-fit: cover;
 }
+/* Prestation */
+.prestation {
+  margin-top: 80px;
+}
