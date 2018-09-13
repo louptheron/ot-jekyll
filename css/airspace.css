@@ -90,6 +90,9 @@ blockquote span::after {
 blockquote p {
   display: inline;
 }
+.responsive-image {
+  width: 100%;
+}
 
 .vertical-align {
   /*position: absolute;*/
