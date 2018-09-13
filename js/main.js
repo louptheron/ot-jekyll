@@ -38,7 +38,6 @@ $(document).ready(function() {
   });
 
   // Instagram slider
-
   if ($("#instafeed").length) {
     var feed = new Instafeed({
       get: "user",
@@ -60,3 +59,38 @@ $(document).ready(function() {
     });
   }
 });
+
+// Sticky Header
+
+//Init sticky header
+$(window).load(function() {
+  $(".showOnScroll").hide();
+  $(".hideOnScroll").show();
+});
+let isSticky = false;
+
+function onScroll() {
+  if (document.getElementById("logo")) {
+    if (
+      document.getElementById("logo").getBoundingClientRect().bottom <= 0 &&
+      !isSticky
+    ) {
+      isSticky = true;
+      $(".hideOnScroll").hide();
+      $(".showOnScroll").show();
+      $("#sticky").addClass("sticky");
+      $(".navbar-default").addClass("add-margin");
+    } else if (
+      document.getElementById("logo").getBoundingClientRect().bottom >= 0 &&
+      isSticky
+    ) {
+      isSticky = false;
+      $(".hideOnScroll").show();
+      $(".showOnScroll").hide();
+      $("#sticky").removeClass("sticky");
+      $(".navbar-default").removeClass("add-margin");
+    }
+  }
+}
+
+window.addEventListener("scroll", onScroll, false);

@@ -109,6 +109,15 @@ blockquote p {
 .mini-margin-left {
   margin-left: 5px;
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*--
 	Header Start
 --*/
@@ -130,6 +139,7 @@ header .navbar-default {
 header .navbar-default .navbar-nav {
   padding-top: 2px;
 }
+
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
@@ -148,15 +158,24 @@ header .navbar-header-top {
 header .navbar-header-top a {
   color: #666;
 }
-.navbar-header-top-right {
-  position: absolute;
-  right: 0px;
+.showOnScroll {
+  display: none;
 }
-.navbar-header-top-left {
-  position: absolute;
-  left: 0px;
+.add-margin {
+  margin-top: 60px !important;
 }
-
+.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  top: -1px;
+  height: 1px;
+  width: 100%;
+  z-index: 999;
+  animation: fadein 1s;
+}
+.sticky > * {
+  -webkit-transform: translateZ(0);
+}
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -295,7 +314,7 @@ header .navbar-header-top a {
 	Feature Start
 --*/
 .feature {
-  background: url("../img/slider/feature.png");
+  background: url("../img/HD-250614-Soir-7.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
