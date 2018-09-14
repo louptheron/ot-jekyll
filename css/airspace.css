@@ -383,8 +383,11 @@ header .navbar-header-top a {
   font-weight: 600;
   margin-bottom: 30px;
 }
+.entreprise p {
+  color: #333333;
+}
 .entreprise {
-  color: #8d8f92;
+  color: #333333;
 }
 .entreprise .btn-view-works {
   background: #655e7a;
@@ -427,6 +430,10 @@ header .navbar-header-top a {
 .privee {
   color: #8d8f92;
   margin-bottom: 20px;
+  color: #333333;
+}
+.privee p {
+  color: #333333;
 }
 .privee .btn-view-works {
   background: #655e7a;
@@ -539,15 +546,18 @@ header .navbar-header-top a {
 /*--
 	Slider-work Start
 --*/
+
 #global-header {
-  background: url("../img/slider/truffe_blanche_st_jacques.png") no-repeat;
-  background-size: cover;
   padding-top: 20px;
   padding-bottom: 10px;
   position: relative;
+}
+.with-background {
+  background: url("../img/P1020503.png") no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
-#global-header:before {
+.with-background:before {
   content: "";
   position: absolute;
   left: 0;
@@ -556,7 +566,7 @@ header .navbar-header-top a {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #7f3589, white 70%);
+  background: linear-gradient(to left, transparent, white 70%);
   opacity: 0.9;
 }
 #global-header .block {
