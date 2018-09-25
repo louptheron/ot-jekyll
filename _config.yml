@@ -19,8 +19,8 @@ keep_files:
   - ".git"
   - ".gitignore"
 subtitle: A free HTML5 agency template
-url: http://louptheron.github.io/ot-jekyll
-baseurl: ""
+url: http://louptheron.github.io/
+baseurl: "/ot-jekyll"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 markdown: kramdown
