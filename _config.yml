@@ -1,3 +1,4 @@
+---
 title: Airspace
 timezone: UTC
 collections:
@@ -8,24 +9,24 @@ collections:
     title: Uploads
     output: true
 exclude:
-  - "/vendor/"
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE.md
-  - "*.gemspec"
+- "/vendor/"
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+- "*.gemspec"
 keep_files:
-  - CNAME
-  - ".git"
-  - ".gitignore"
+- CNAME
+- ".git"
+- ".gitignore"
 subtitle: A free HTML5 agency template
 url: http://louptheron.github.io
-baseurl: ""
+baseurl: ''
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 markdown: kramdown
 descriptions:
-  - cat: jekyll
-    desc: Posts describing Jekyll setup techniques.
-  - cat: dummy
-    desc: Just some placeholder posts, lorem ipsum and the rest.
+- cat: jekyll
+  desc: Posts describing Jekyll setup techniques.
+- cat: dummy
+  desc: Just some placeholder posts, lorem ipsum and the rest.
