@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    cover_img: img/logo-OT.png
   uploads:
     title: Uploads
     output: true
