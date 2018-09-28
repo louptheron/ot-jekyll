@@ -112,6 +112,10 @@ blockquote p {
 .mini-margin-left {
   margin-left: 5px;
 }
+.ot-profil {
+  float: right;
+  margin: 15px;
+}
 
 @keyframes fadein {
   from {
