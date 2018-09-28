@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Georgia, "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -47,6 +47,7 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
+  color: #005862;
 }
 .section-title {
   margin-bottom: 70px;
@@ -70,7 +71,7 @@ blockquote {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 blockquote span::before {
-  color: #8446ad;
+  color: #005862;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -79,7 +80,7 @@ blockquote span::before {
 }
 
 blockquote span::after {
-  color: #8446ad;
+  color: #005862;
   content: close-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -264,7 +265,7 @@ header .navbar-header-top a {
 	wrapper Start
 --*/
 #intro {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 #intro .block h2 {
@@ -380,7 +381,7 @@ header .navbar-header-top a {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  color: #8d8f92;
+  color: rgb(123, 123, 123, 1);
   margin-bottom: 20px;
   padding: 100px 0;
 }
@@ -390,7 +391,7 @@ header .navbar-header-top a {
   margin-bottom: 30px;
 }
 .feature .btn-view-works {
-  background: #655e7a;
+  background: #005862;
   color: #fff;
   padding: 10px 20px;
 }
@@ -434,7 +435,7 @@ header .navbar-header-top a {
   color: #333333;
 }
 .entreprise .btn-view-works {
-  background: #655e7a;
+  background: #005862;
   color: #fff;
   padding: 10px 20px;
 }
@@ -480,7 +481,7 @@ header .navbar-header-top a {
   color: #333333;
 }
 .privee .btn-view-works {
-  background: #655e7a;
+  background: #005862;
   color: #fff;
   padding: 10px 20px;
 }
@@ -653,7 +654,7 @@ header .navbar-header-top a {
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: #655e7a;
+  color: #005862;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
@@ -733,7 +734,7 @@ header .navbar-header-top a {
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
   font-size: 13px;
-  color: #655e7a;
+  color: #005862;
 }
 #portfolio-work .block .portfolio-contant ul img {
   width: 100%;
