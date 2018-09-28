@@ -219,6 +219,43 @@ header .navbar-header-top a {
   font-weight: 300;
   letter-spacing: 3px;
 }
+
+.box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+}
+
+.box-dark {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.decouvrir {
+  padding: 10px;
+  margin-top: 42%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+#myCarousel .text {
+  text-transform: uppercase;
+  font-family: Georgia;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 20%;
+  padding: 30px;
+}
+.first-letter {
+  font-size: 1.2em;
+}
+
 /*--
 	wrapper Start
 --*/

@@ -21,6 +21,15 @@ $(document).ready(function() {
     itemsDesktopSmall: [979, 5]
   });
 
+  $("#scroll-decouvrir").click(function() {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#decouvrir").offset().top
+      },
+      2000
+    );
+  });
+
   // google map
   var map;
   function initMap() {
