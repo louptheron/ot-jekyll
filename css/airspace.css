@@ -132,6 +132,10 @@ header .navbar {
   margin-top: 20px;
   border: 0px;
 }
+header .OT-background {
+  background: url("../img/OT-Background-2.png") no-repeat center;
+  padding-top: 10px;
+}
 header .navbar-brand {
   margin-top: -33px;
 }
@@ -146,7 +150,7 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
-  font-size: 15px;
+  font-size: 17px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -154,7 +158,6 @@ font header .navbar-default .navbar-nav li a:hover {
 header .navbar-header-top {
   background: #fcfbfb;
   padding: 5px 0 5px 0;
-  margin-bottom: 10px;
   border-bottom: 1px dashed #f3edf2;
   min-height: 30px;
 }
