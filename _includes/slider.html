@@ -60,8 +60,14 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
 {% endif %}
 
 <div id="myCarousel" class="carousel slide{% if include.transition == 'fade' %} carousel-fade{% endif %}" data-ride="carousel" data-interval="{{ include.duration }}000">
-    
-  
+    <div class="text box">
+      <span class="first-letter">o</span>livier <span class="first-letter">t</span>héron - <span class="first-letter">t</span>raiteur & <span class="first-letter">é</span>vènements
+    </div>
+    <a href="#">
+      <div id="scroll-decouvrir" class="decouvrir box-dark">
+        Nous découvrir<br/><i class="fas fa-arrow-down"></i>
+      </div>
+    </a>
     <!-- Wrapper for slides old url : //images.weserv.nl/?url={{ site.url | replace: 'https://','' | replace: 'http://','' }}{{ item.image }}&w={{ include.image_width }}&h={{ include.image_height }}&output=jpg&q=50&t=square -->
     <div class="carousel-inner">
     {% for item in page.slider.slides %}
