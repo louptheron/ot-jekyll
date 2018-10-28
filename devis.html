@@ -1,0 +1,113 @@
+---
+title: Demandez-nous un devis !
+permalink: "/devis/"
+layout: page
+---
+
+<!-- Title Start -->
+<!-- Devis form start -->
+<section id="contact-form">
+  <div class="container">
+    <div class="block">
+    <div id="contact-box" class="row">
+      <div class="col-md-12">
+          <form method="POST" action="https://formspree.io/loup-rodney@hotmail.fr">
+            <div class="form-group">
+              <div class="col-md-12">
+                <h3>Vous connaître</h3>
+              </div>
+              <div class="col-md-6">
+                <span class="bigger-font">Entité : </span>
+                <input class="form-radio" name="entite" value="particulier" id="particulier" type="radio">
+                <label class="inline form-radio" for="particulier">Particulier</label>
+                <input class="form-radio" name="entite" value="entreprise" id="entreprise" type="radio">
+                <label class="inline form-radio" for="entreprise">Entreprise</label>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="company" placeholder="Entreprise">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="first-name" placeholder="Nom">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="second-name" placeholder="Prénom">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <h3>Localisation</h3>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="postal-code" placeholder="Code Postal">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="city" placeholder="Ville">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <h3>Vous contacter</h3>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="telephone" placeholder="Telephone">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <h3>La prestation</h3>
+              </div>
+              <div class="col-md-12" style="margin-bottom: 20px">
+                <span class="bigger-font">Type de prestation :</span>
+                <input class="inline form-radio" name="Cocktail" value="Cocktail" id="Cocktail" type="checkbox">
+                <label class="inline form-radio" for="Cocktail">Cocktail</label>
+                <input class="inline form-radio" name="Dejeuner" value="Dejeuner" id="Dejeuner" type="checkbox">
+                <label class="inline form-radio"class="inline" for="Dejeuner">Dejeuner</label>
+                <input class="inline form-radio"name="Dîner" value="Dîner" id="Dîner" type="checkbox">
+                <label class="inline form-radio"class="inline" for="Dîner">Dîner</label>
+                <input class="inline form-radio"name="Buffet froid" value="Buffet froid" id="Buffet froid" type="checkbox">
+                <label class="inline form-radio"class="inline" for="Buffet froid">Buffet froid</label>
+                <input class="inline form-radio"name="Buffet chaud" value="Buffet chaud" id="Buffet chaud" type="checkbox">
+                <label class="inline form-radio"class="inline" for="Buffet chaud">Buffet chaud</label>
+                <input class="inline form-radio"name="Plateaux repas" value="Plateaux repas" id="Plateaux repas" type="checkbox">
+                <label class="inline form-radio"class="inline" for="Plateaux repas">Plateaux repas</label>
+              </div>
+              <div class="col-md-6">
+                <span class="bigger-font">Nature de la prestation : </span>
+                <select class="form-select" name="nature_prestation">
+                  <option value="soiree_privee">Soirée Privée </option>
+                  <option value="soiree_proffessionnelle">Soirée Proffessionnelle</option>
+                  <option value="mariage">Mariage</option>
+                  <option value="autre_nature">Autre</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="date" placeholder="Date">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="number_person" placeholder="Nombre de personnes">
+              </div>
+              <div class="col-md-12">
+                <span class="bigger-font">Prestations annexes : </span>
+                <input class="inline form-radio" id="location_salle" name="location_salle" value="location_salle" type="checkbox">
+                <label class="inline form-radio" for="location_salle">Location Salle</label>
+                <input class="inline form-radio" id="decoration_florale" name="decoration_florale" value="decoration_florale" type="checkbox">
+                <label class="inline form-radio" for="decoration_florale">Décoration Florale</label>
+                <input class="inline form-radio" id="autre_prestations_annexes" name="autre_prestations_annexes" value="autre_prestations_annexes" type="checkbox">
+                <label class="inline form-radio" for="autre_prestations_annexes">Autre Prestations Annexes</label>
+              </div>
+              <div class="col-md-12">
+                <h3>Votre demande</h3>
+              </div>
+            </div>
+            <div class="form-group-2">
+              <textarea class="form-control" rows="10" name="message" placeholder="Votre message..."></textarea>
+              <button class="btn btn-default" type="submit">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

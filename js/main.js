@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  // new Typed(".enterprise-name", {
+  //   strings: ["Olivier Théron ^1000 - Traiteur & Evènements"],
+  //   typeSpeed: 100,
+  //   showCursor: true
+  // });
+
   $("#portfolio-contant-active").mixItUp();
 
   $("#testimonial-slider").owlCarousel({
