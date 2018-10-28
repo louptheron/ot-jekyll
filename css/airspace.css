@@ -34,7 +34,7 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
 }
 ul {
@@ -51,6 +51,9 @@ a:active {
 }
 .section-title {
   margin-bottom: 70px;
+}
+.bigger-font {
+  font-size: 1.2em;
 }
 .helper {
   display: inline-block;
@@ -248,7 +251,7 @@ header .navbar-header-top a {
 
 .decouvrir {
   padding: 10px;
-  margin-top: 42%;
+  margin-top: 35%;
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -643,23 +646,25 @@ header .navbar-header-top a {
   text-align: center;
 }
 #portfolio-work .block .portfolio-menu ul {
-  border: 1px solid #999999;
+  /*border: 1px solid #999999;*/
   display: inline-block;
   margin-bottom: 40px;
+  color: white;
+  background-color: #005862;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
-  padding: 0px 25px;
+  padding: 10px 35px;
   cursor: pointer;
   font-size: 15px;
   line-height: 40px;
   font-weight: 600;
-  color: #333333;
+  color: grey;
   text-transform: capitalize;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: #005862;
+  color: white;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
@@ -671,9 +676,9 @@ header .navbar-header-top a {
   width: 20px;
   left: 0px;
   right: 0px;
-  top: 23px;
+  top: 43px;
   margin: 0 auto;
-  color: #fff;
+  color: #005862;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -690,9 +695,9 @@ header .navbar-header-top a {
   width: 20px;
   left: 0px;
   right: 0px;
-  top: 24px;
+  top: 43px;
   margin: 0 auto;
-  color: #fff;
+  color: #005862;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -897,6 +902,10 @@ header .navbar-header-top a {
   padding-bottom: 15px;
   margin: 0px;
 }
+#contact-form .form-group h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 #contact-form .block form .form-group .form-control {
   background: #f6f8fa;
   height: 60px;
@@ -904,6 +913,41 @@ header .navbar-header-top a {
   box-shadow: none;
   width: 100%;
 }
+#contact-form .block form .form-group .form-radio {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#contact-form .block form .form-group .form-select {
+  margin-top: 20px;
+  background: #f6f8fa;
+  border: 1px solid #eef2f6;
+  box-shadow: none;
+  height: 60px;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+#contact-form .block form .form-group .form-select:focus {
+  background-image: linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
 #contact-form .block form .form-group-2 {
   padding-bottom: 15px;
   margin: 0px;
