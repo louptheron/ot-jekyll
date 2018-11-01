@@ -23,7 +23,6 @@ keep_files:
 - ".gitignore"
 subtitle: A free HTML5 agency template
 url: http://louptheron.github.io/
-baseurl: "/"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 markdown: kramdown

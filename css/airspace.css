@@ -33,15 +33,19 @@ h3 {
   font-size: 28px;
   font-weight: 300;
 }
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
 p {
   font-size: 16px;
   line-height: 28px;
 }
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+
 a,
 a:active,
 a:focus,
@@ -139,6 +143,11 @@ blockquote p {
 --*/
 header {
   background: #fff;
+}
+header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 header .navbar {
   margin-bottom: 20px;
@@ -1052,6 +1061,25 @@ header .navbar-header-top a {
   line-height: 40px;
   color: #292929;
   font-weight: 300;
+}
+/*
+  Eco responsable Start
+*/
+
+.eco-reponsable-phrase {
+  margin: 4em 4em;
+  text-align: center;
+  font-size: 16px;
+}
+.eco-reponsable-phrase h4 {
+  line-height: 1.3em;
+}
+.eco-reponsable-text h5 {
+  margin: 1em 0;
+  line-height: 1.3em;
+}
+.eco-reponsable-text {
+  font-size: 16px;
 }
 /*---------------------------*/
 /*--
