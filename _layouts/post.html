@@ -4,14 +4,14 @@ layout: page
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro" >
+  <section id="intro" style="border: 1px dotted #ddd;">
     <div class="container">
       <div class="row">
         <div>
           <div class="block">
             <h1>{{ page.title }}</h1>
             <div class="post-info-wrapper">
-              <p class="italic">Le <span class="bold">{{ page.date | date: "%-d %B %Y" }}</span></p>
+              <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
             <hr />
             <p>{{ content }}</p>
@@ -22,5 +22,5 @@ layout: page
   </section>
 </div>
 <p class="center-text" style="padding: 30px;">
-  <a href="{{ site.baseurl }}/blog">Revenir au blog</a>
+  <a href="{{ site.baseurl }}/blog">Back to blog</a>
 </p>

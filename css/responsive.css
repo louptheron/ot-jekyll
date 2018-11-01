@@ -22,37 +22,6 @@ px      68    160    252    344    436    528    620    712    */
     position: absolute;
     left: 0px;
   }
-
-  header .navbar-default .navbar-nav li a {
-    display: inline-block;
-    letter-spacing: 0.05em;
-    transition: text-shadow 0.3s;
-  }
-  header .navbar-default .navbar-nav li a.active {
-    text-shadow: 0 0 0.15px #333;
-  }
-
-  /* header .navbar-default .navbar-nav li a::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: #005862;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.1s ease;
-  }
-  header .navbar-default .navbar-nav li a:hover::after,
-  header .navbar-default .navbar-nav li a.active::after {
-    visibility: visible;
-    transform: scaleX(1);
-  } */
-
-  header .navbar-default .navbar-nav li a.active {
-    font-weight: bold;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

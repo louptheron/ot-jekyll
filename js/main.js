@@ -1,10 +1,4 @@
 $(document).ready(function() {
-  // new Typed(".enterprise-name", {
-  //   strings: ["Olivier Théron ^1000 - Traiteur & Evènements"],
-  //   typeSpeed: 100,
-  //   showCursor: true
-  // });
-
   $("#portfolio-contant-active").mixItUp();
 
   $("#testimonial-slider").owlCarousel({
@@ -25,15 +19,6 @@ $(document).ready(function() {
     items: 5,
     itemsDesktop: [1199, 5],
     itemsDesktopSmall: [979, 5]
-  });
-
-  $("#scroll-decouvrir").click(function() {
-    $([document.documentElement, document.body]).animate(
-      {
-        scrollTop: $("#decouvrir").offset().top
-      },
-      2000
-    );
   });
 
   // google map
