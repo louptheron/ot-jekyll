@@ -1,0 +1,48 @@
+---
+title: Blog
+layout: page
+---
+
+<!-- Title Start -->
+<!-- Post Start -->
+<div class="container">
+  {% for post in paginator.posts %}
+  <div class="post-area">
+    <div class="row">
+    {% if post.img %}
+      <div class="col-md-2">
+        <span class="helper"></span>
+        <img src="{{ post.img | prepend: site.baseurl }}" class="photo-blog-cover"/> 
+      </div>
+      <div class="col-md-10">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+        <p class="post-date">{{ post.date | date_to_long_string }}</p>
+        <p>
+          {{ post.content | strip_html | truncatewords: 50 }}
+        </p>
+      </div>
+    {% else %}
+      <div class="col-md-12">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+        <p class="post-date">{{ post.date | date_to_long_string }}</p>
+        <p>
+          {{ post.content | strip_html | truncatewords: 50 }}
+        </p>
+      </div>
+    {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  <div class="blog-paginator">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Posts suivants <i class="fas fa-forward"></i></a>
+    {% endif %} 
+    {% if paginator.previous_page and paginator.next_page %} ou {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}"><i class="fas fa-backward"></i>  Posts précédents</a>
+    {% endif %}
+  </ul>
+  {% endif %}
+</div>
