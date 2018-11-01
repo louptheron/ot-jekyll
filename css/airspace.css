@@ -242,11 +242,20 @@ header .navbar-header-top a {
   letter-spacing: 3px;
 }
 
+#scroll-decouvrir {
+  animation: fadein 10s;
+}
+
+.enterprise-name {
+  animation: fadein 3s;
+}
+
 .box {
   position: absolute;
   left: 50%;
+  color: white;
   transform: translate(-50%, 0);
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 1); */
   z-index: 10;
 }
 
@@ -265,6 +274,9 @@ header .navbar-header-top a {
   color: white;
   text-transform: uppercase;
 }
+.enterprise-name {
+  text-shadow: 0 0 2px black;
+}
 
 #myCarousel .text {
   text-transform: uppercase;
@@ -276,6 +288,9 @@ header .navbar-header-top a {
 }
 .first-letter {
   font-size: 1.2em;
+}
+.normal-letter {
+  font-size: 1.1em;
 }
 
 /*--
