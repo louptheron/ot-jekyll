@@ -178,13 +178,14 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 header .navbar-header-top {
-  background: #fcfbfb;
+  background: white; /*#fcfbfb;*/
   padding: 5px 0 5px 0;
   border-bottom: 1px dashed #f3edf2;
   min-height: 30px;
 }
 header .navbar-header-top a {
   color: #666;
+  /* color: white; */
 }
 .showOnScroll {
   display: none;
@@ -279,7 +280,7 @@ header .navbar-header-top a {
 }
 
 #myCarousel .text {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: Georgia;
   font-size: 2em;
   font-weight: 500;
@@ -434,7 +435,7 @@ header .navbar-header-top a {
 	Entreprise Start
 --*/
 .entreprise {
-  background: url("../img/IMG_5834.png");
+  background: url("../img/1130253.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -461,10 +462,10 @@ header .navbar-header-top a {
   margin-bottom: 30px;
 }
 .entreprise p {
-  color: #333333;
+  color: white; /*#333333;*/
 }
 .entreprise {
-  color: #333333;
+  color: white;
 }
 .entreprise .btn-view-works {
   background: #005862;
@@ -478,7 +479,7 @@ header .navbar-header-top a {
 	Privee Start
 --*/
 .privee {
-  background: url("../img/privee.png");
+  background: url("../img/privee2.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -666,15 +667,17 @@ header .navbar-header-top a {
   padding: 80px 0;
 }
 #portfolio-work .block .portfolio-menu {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   text-align: center;
 }
 #portfolio-work .block .portfolio-menu ul {
   /*border: 1px solid #999999;*/
+  padding-left: 0;
   display: inline-block;
   margin-bottom: 40px;
   color: white;
   background-color: #005862;
+  width: 100%;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
@@ -686,6 +689,7 @@ header .navbar-header-top a {
   color: grey;
   text-transform: capitalize;
   position: relative;
+  font-size: 18px;
 }
 #portfolio-work .block .portfolio-menu ul .active {
   color: white;
@@ -798,6 +802,9 @@ header .navbar-header-top a {
   -webkit-transition: 0.5s all;
   -o-transition: 0.5s all;
   transition: 0.5s all;
+}
+.portfolio-contant {
+  margin-left: -40px;
 }
 #portfolio-work .block .mix {
   display: none;
