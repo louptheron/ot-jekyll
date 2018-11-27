@@ -5,10 +5,19 @@
  * The original style.css is now called airspace.css
  * 
  */
+@font-face {
+  font-family: Radicalis;
+  src: url(../fonts/Radicalis.ttf);
+}
+@font-face {
+  font-family: Golden Plains;
+  src: url("../fonts/Golden Plains.ttf");
+}
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400, 300, 600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400, 100, 300, 500, 700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+
 /* var text-decoration */
 /*--
 	Common Css
@@ -17,8 +26,9 @@ body {
   font-family: Georgia, "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
+h1, h2 {
+  font-family: "Golden Plains", "Roboto", sans-serif;
+}
 h3,
 h4,
 h5,
@@ -172,16 +182,16 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
-  font-size: 17px;
+  font-size: 20px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 header .navbar-header-top {
   background: white; /*#fcfbfb;*/
-  padding: 5px 0 5px 0;
-  border-bottom: 1px dashed #f3edf2;
-  min-height: 30px;
+  padding: 10px 0 5px 0;
+  /* border-bottom: 1px dashed #f3edf2; */
+  min-height: 40px;
 }
 header .navbar-header-top a {
   color: #666;
@@ -221,7 +231,6 @@ header .navbar-header-top a {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #7f3589, white);
   opacity: 0.4;
 }
 #myCarousel .block {
@@ -243,8 +252,20 @@ header .navbar-header-top a {
   letter-spacing: 3px;
 }
 
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: calc(100vh - 210px);
+  }
+  50% {
+    top: calc(98vh - 210px);
+  }
+}
+
 #scroll-decouvrir {
-  animation: fadein 10s;
+  animation: 1.5s infinite MoveUpDown, fadein 3s;
+  animation-timing-function: cubic-bezier(0.6, 0.01, 0.65, 0.9);
+  transition: opacity 2s ease-in;
 }
 
 .enterprise-name {
@@ -253,10 +274,9 @@ header .navbar-header-top a {
 
 .box {
   position: absolute;
-  left: 50%;
+  left: calc(48vw - 300px);
+  /* left: calc(90vw - 300px); */
   color: white;
-  transform: translate(-50%, 0);
-  /* background: rgba(255, 255, 255, 1); */
   z-index: 10;
 }
 
@@ -264,34 +284,39 @@ header .navbar-header-top a {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   z-index: 10;
+  top: calc(100vh - 210px);
 }
 
 .decouvrir {
   padding: 10px;
-  margin-top: 35%;
   text-align: center;
   color: white;
+  font-weight: 600; 
   text-transform: uppercase;
+  text-shadow: 0 0 4px black;
 }
 .enterprise-name {
   text-shadow: 0 0 2px black;
+  min-width: 250px;
 }
 
 #myCarousel .text {
   /* text-transform: uppercase; */
-  font-family: Georgia;
-  font-size: 2em;
+  font-family: "Golden Plains";
+  font-size: 5em;
+  /* font-size: 2.5em; */
   font-weight: 500;
-  margin-top: 20%;
+  top: calc(45vh - 150px);
+  /* top: calc(85vh - 150px); */
   padding: 30px;
 }
 .first-letter {
-  font-size: 1.2em;
+  font-size: 1.9em;
 }
 .normal-letter {
-  font-size: 1.1em;
+  font-size: 1.8em;
 }
 
 /*--
@@ -676,7 +701,8 @@ header .navbar-header-top a {
   display: inline-block;
   margin-bottom: 40px;
   color: white;
-  background-color: #005862;
+  /* background-color: #005862; */
+  background-color: rgb(170, 162, 150, 1);
   width: 100%;
 }
 #portfolio-work .block .portfolio-menu ul li {
@@ -706,8 +732,9 @@ header .navbar-header-top a {
   right: 0px;
   top: 43px;
   margin: 0 auto;
-  color: #005862;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  /* color: #005862; */
+  color: rgb(170, 162, 150, 1);
+  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -725,8 +752,9 @@ header .navbar-header-top a {
   right: 0px;
   top: 43px;
   margin: 0 auto;
-  color: #005862;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  /* color: #005862; */
+  color: rgb(170, 162, 150, 1);
+  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -1004,6 +1032,11 @@ header .navbar-header-top a {
 --*/
 .address-block li {
   margin-bottom: 20px;
+  list-style-type: none;
+}
+.address-block-map {
+  margin-left: 35px;
+  margin-top: -20px;
 }
 .address-block li i {
   margin-right: 15px;
