@@ -93,7 +93,7 @@ blockquote {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 blockquote span::before {
-  color: #005862;
+  color: #887774;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -102,7 +102,7 @@ blockquote span::before {
 }
 
 blockquote span::after {
-  color: #005862;
+  color: #887774;
   content: close-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -188,9 +188,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 header .navbar-header-top {
-  background: white; /*#fcfbfb;*/
+  background: white /*#fcfbfb*/;
   padding: 10px 0 5px 0;
-  /* border-bottom: 1px dashed #f3edf2; */
+  /* border-bottom: 3px solid #f3edf2; */
   min-height: 40px;
 }
 header .navbar-header-top a {
@@ -274,7 +274,7 @@ header .navbar-header-top a {
 
 .box {
   position: absolute;
-  left: calc(48vw - 300px);
+  left: calc(48vw - 370px);
   /* left: calc(90vw - 300px); */
   color: white;
   z-index: 10;
@@ -291,6 +291,7 @@ header .navbar-header-top a {
 
 .decouvrir {
   padding: 10px;
+  font-size: 1.3em;
   text-align: center;
   color: white;
   font-weight: 600; 
@@ -305,7 +306,7 @@ header .navbar-header-top a {
 #myCarousel .text {
   /* text-transform: uppercase; */
   font-family: "Golden Plains";
-  font-size: 5em;
+  font-size: 6em;
   /* font-size: 2.5em; */
   font-weight: 500;
   top: calc(45vh - 150px);
@@ -488,6 +489,7 @@ header .navbar-header-top a {
 }
 .entreprise p {
   color: white; /*#333333;*/
+  font-size: 18px;
 }
 .entreprise {
   color: white;
@@ -537,6 +539,7 @@ header .navbar-header-top a {
 }
 .privee p {
   color: #333333;
+  font-size: 18px;
 }
 .privee .btn-view-works {
   background: #005862;
@@ -1031,12 +1034,13 @@ header .navbar-header-top a {
 	wrapper-contact Start
 --*/
 .address-block li {
+  font-size: 1.2em;
   margin-bottom: 20px;
   list-style-type: none;
 }
 .address-block-map {
   margin-left: 35px;
-  margin-top: -20px;
+  margin-top: -24px;
 }
 .address-block li i {
   margin-right: 15px;
@@ -1173,80 +1177,11 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
-/*-- Instagram slider *
-.instagram_scroller .simply-scroll-clip {
-  width: 100%;
-  height: 210px;
-  position: relative;
-  overflow: hidden;
-}
-#instagram_spinner {
-  display: block;
-  margin: 0 auto;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  top: 146px;
-}
-@media screen and (max-width: 420px) {
-  #instagram_spinner {
-    top: 100px;
-  }
-}
-.instagram_list {
-  height: 280px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-align: left;
-  position: relative;
-}
-.instagram_list a {
-  margin-right: 30px;
-  vertical-align: top;
-  display: block;
-  width: 170px;
-  height: 210px;
-  float: left;
-}
-.instagram_list a:hover img {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.instagram_list img {
-  width: 170px;
-  height: 170px;
-  display: block;
-  margin-top: 20px;
-  border-radius: 4px;
-  transition: all 220ms ease-in-out;
-  object-fit: cover;
-}
-@media screen and (max-width: 420px) {
-  .instagram_scroller {
-    height: 170px;
-    margin-top: 40px;
-  }
-  .instagram_scroller .simply-scroll-clip {
-    height: 170px;
-  }
-  .instagram_list {
-    height: 210px;
-  }
-  .instagram_list a {
-    width: 130px;
-    height: 170px;
-  }
-  .instagram_list img {
-    width: 130px;
-    height: 130px;
-  }
-}
-*/
+
 
 .instagram_list img {
-  width: 170px;
-  height: 170px;
+  width: 220px;
+  height: 220px;
   display: block;
   margin-top: 20px;
   border-radius: 4px;
@@ -1258,7 +1193,7 @@ footer .footer-manu ul li a:hover {
   vertical-align: top;
   display: block;
   width: 170px;
-  height: 210px;
+  height: 270px;
   float: left;
 }
 .instagram_list a:hover img {
@@ -1267,8 +1202,8 @@ footer .footer-manu ul li a:hover {
   transform: scale(1.1);
 }
 .instagram_list img {
-  width: 170px;
-  height: 170px;
+  width: 220px;
+  height: 220px;
   display: block;
   margin-top: 20px;
   border-radius: 4px;
@@ -1291,4 +1226,9 @@ footer .footer-manu ul li a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.2em;
+}
+#hashtag {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.3);;
 }
