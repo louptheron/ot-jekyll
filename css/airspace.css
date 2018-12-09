@@ -13,6 +13,13 @@
   font-family: Golden Plains;
   src: url("../fonts/Golden Plains.ttf");
 }
+@font-face{ 
+	font-family: 'Golden Plains';
+	src: url('../fonts/golden_plains-webfont.eot');
+	src: url('../fonts/golden_plains-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/golden_plains-webfont.woff') format('woff'),
+	     url('../fonts/golden_plains-webfont.ttf') format('truetype');
+}
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400, 300, 600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400, 100, 300, 500, 700);
@@ -28,6 +35,7 @@ body {
 }
 h1, h2 {
   font-family: "Golden Plains", "Roboto", sans-serif;
+  font-size: 40px;
 }
 h3,
 h4,
@@ -75,7 +83,6 @@ a:active {
   vertical-align: middle;
 }
 .section-title h2 {
-  text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
 }
@@ -83,6 +90,7 @@ a:active {
   font-family: "Volkhov", serif;
   font-style: italic;
   color: #666;
+  font-size: 18px;
 }
 blockquote {
   font-family: "Volkhov", serif;
@@ -243,6 +251,7 @@ header .navbar-header-top a {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
+
 }
 #myCarousel .block p {
   font-size: 23px;
@@ -331,6 +340,9 @@ header .navbar-header-top a {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
+  text-transform: none;
+  font-size: 50px;
+  font-weight: 200;
 }
 #intro .block {
   color: #7b7b7b;
@@ -375,6 +387,11 @@ header .navbar-header-top a {
   font-size: 14px;
   line-height: 1.8;
 }
+#service h2 {
+  text-transform: none;
+  font-size: 40px;
+  font-weight: 200;
+}
 /*--
 	call-to-action Start
 --*/
@@ -403,7 +420,7 @@ header .navbar-header-top a {
   padding-bottom: 20px;
   line-height: 33px;
   margin: 0;
-  font-size: 30px;
+  font-size: 40px;
 }
 #call-to-action p {
   font-size: 14px;
@@ -448,6 +465,9 @@ header .navbar-header-top a {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  text-transform: none;
+  font-size: 50px;
+  font-weight: 200;
 }
 .feature .btn-view-works {
   background: #005862;
@@ -483,13 +503,14 @@ header .navbar-header-top a {
   padding: 100px 0;
 }
 .entreprise h2 {
-  font-size: 28px;
+  font-size: 48px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 .entreprise p {
   color: white; /*#333333;*/
   font-size: 18px;
+  font-style: normal;
 }
 .entreprise {
   color: white;
@@ -528,7 +549,7 @@ header .navbar-header-top a {
   padding: 100px 0;
 }
 .privee h2 {
-  font-size: 28px;
+  font-size: 48px;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -540,6 +561,7 @@ header .navbar-header-top a {
 .privee p {
   color: #333333;
   font-size: 18px;
+  font-style: normal;
 }
 .privee .btn-view-works {
   background: #005862;
@@ -553,12 +575,14 @@ header .navbar-header-top a {
 	content Start
 --*/
 #testimonial {
-  padding: 100px 0;
+  padding: 0 0;
 }
 #testimonial .block h2 {
   line-height: 27px;
   color: #5c5c5c;
   padding-top: 110px;
+  font-weight: 300;
+  font-size: 50px;
 }
 #testimonial .block p {
   color: #7b7b7b;
@@ -705,23 +729,24 @@ header .navbar-header-top a {
   margin-bottom: 40px;
   color: white;
   /* background-color: #005862; */
-  background-color: rgb(170, 162, 150, 1);
+  /* background-color: rgb(170, 162, 150, 1); */
+
   width: 100%;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
   padding: 10px 35px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 30px !important;
+  font-family: "Golden Plains", "Roboto", sans-serif;
   line-height: 40px;
   font-weight: 600;
   color: grey;
-  text-transform: capitalize;
   position: relative;
   font-size: 18px;
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: white;
+  color: black;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
@@ -1213,6 +1238,10 @@ footer .footer-manu ul li a:hover {
 /* Prestation */
 .prestation {
   margin-top: 80px;
+}
+.prestation h2 {
+  font-size: 50px;
+  font-weight: 400;
 }
 .photo-blog-cover {
   left: auto;
