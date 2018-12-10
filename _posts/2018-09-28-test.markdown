@@ -6,3 +6,5 @@ layout: post
 ---
 
 Test
+
+![truffe_blanche_st_jacques.png](/uploads/truffe_blanche_st_jacques.png)
