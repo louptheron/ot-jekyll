@@ -1160,16 +1160,37 @@ header .navbar-header-top a {
   margin: 4em 4em;
   text-align: center;
   font-size: 16px;
+  height: 500px;
 }
 .eco-reponsable-phrase h4 {
   line-height: 1.3em;
+  font-family: "Golden Plains", "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: 200;
+  color: white;
+  text-shadow: 0 0 4px black;
 }
 .eco-reponsable-text h5 {
   margin: 1em 0;
   line-height: 1.3em;
 }
 .eco-reponsable-text {
-  font-size: 16px;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 0 4px black;
+}
+.agrement-text {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 0 4px black;
+  color: white;
+}
+.eco-reponsable-text a {
+  color: white;
 }
 /*---------------------------*/
 /*--
@@ -1180,7 +1201,6 @@ footer {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
-  margin-top: 2em;
 }
 footer p {
   font-size: 13px;
@@ -1268,10 +1288,24 @@ footer .footer-manu ul li a:hover {
   color: rgba(0, 0, 0, 0.3);;
 }
 #eco-responsable-image {
-  background-image: url("../img/leaf-1001679_640.jpg");
+  /* background-image: url("../img/leaf-1001679_640.jpg"); */
   height: 400px;
 }
 .eco-responsable-more {
   line-height: 130px;
   font-size: 1.5em;
+  font-family: "Golden Plains", "Roboto", sans-serif;
+
+}
+#eco-background {
+  background-image: url("../img/kohlrabi-3837895_1920.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.eco-background-gradient {
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
