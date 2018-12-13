@@ -166,7 +166,7 @@ blockquote p {
 	Header Start
 --*/
 header {
-  background: #fff;
+  background: url("../img/grey.png");
 }
 header ul {
   padding: 0;
@@ -179,7 +179,6 @@ header .navbar {
   border: 0px;
 }
 header .OT-background {
-  background: url("../img/OT-Background-2.png") no-repeat center;
   padding-top: 10px;
 }
 header .navbar-brand {
@@ -1168,7 +1167,7 @@ header .navbar-header-top a {
   font-size: 45px;
   font-weight: 200;
   color: white;
-  text-shadow: 0 0 4px black;
+  text-shadow:  0 0 4px black, 0 0 5px black;
 }
 .eco-reponsable-text h5 {
   margin: 1em 0;
@@ -1179,7 +1178,7 @@ header .navbar-header-top a {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 0 0 4px black;
+  text-shadow: 0 0 4px black, 0 0 5px black;
 }
 .agrement-text {
   font-size: 25px;
