@@ -15,7 +15,7 @@ C'est ainsi qu'une véritable cuisine prend place dans le décor, où de vrais p
 
 Olivier a ainsi pu mettre à contribution son expérience de cuisinier et sa passion pour le théâtre, en créant des plats adaptés pour cette prestation très spéciale (tant visuellement que techniquement), mais également distiller ses conseils à l'acteur tenant le rôle du Cuisinier ou au personnel de service.
 
-![20171124_183452-1_thumb.jpg](/uploads/20171124_183452-1_thumb.jpg)
+<img src="/uploads/20171124_183452-1_thumb.jpg" width="200"/>
 
 ---
 
@@ -34,7 +34,7 @@ La grande qualité d’écoute de Cyril a laissé libre cours à mon imaginaire,
 
 Pour moi l’aventure commençait, avec la joie et l’euphorie d’un nouveau challenge à relever, et l’intime conviction que j’y prendrais beaucoup de plaisir, dans l’espoir que les participants au dîner en prendraient aussi."
 
-- Olivier THERON
+* Olivier THERON
 
 Pour retrouver les différentes parutions dans la presse, c'est ici :
 
