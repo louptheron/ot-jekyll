@@ -1,7 +1,6 @@
 ---
 title: '"Ma rencontre avec Cyril Teste"'
 date: 2019-01-22 09:34:00 Z
-published: false
 img: "/uploads/20171124_183452-1_thumb.jpg"
 ---
 
@@ -33,7 +32,10 @@ La grande qualité d’écoute de Cyril a laissé libre cours à mon imaginaire,
 Pour moi l’aventure commençait, avec la joie et l’euphorie d’un nouveau challenge à relever, et l’intime conviction que j’y prendrais beaucoup de plaisir, dans l’espoir que les participants au dîner en prendraient aussi. "\
 Olivier THERON\
 \
-Pour retrouver les différentes parutions dans la presse, c'est ici :\
-- <a href="http://www.oliviertheron.com/public/LesInrockuptibles.pdf">"A l’Odéon, les tourments de “Festen” servis sur un plateau"</a> | Les Inrockuptibles\
-- <a href="http://www.oliviertheron.com/public/LeFigaro-Festen.pdf">"Subtiles essences d'un drame"</a> | Le figaro\
-- <a href="http://www.oliviertheron.com/public/Festen_LeMonde.pdf">"La vidéo à la table de Festen"</a> | Le Monde
+Pour retrouver les différentes parutions dans la presse, c'est ici :
+
+* <a href="/uploads/LesInrockuptibles.pdf">"A l’Odéon, les tourments de “Festen” servis sur un plateau"</a> | Les Inrockuptibles\\
+
+* <a href="/uploads/LeFigaro-Festen.pdf">"Subtiles essences d'un drame"</a> | Le figaro\\
+
+* <a href="/uploads/Festen_LeMonde.pdf">"La vidéo à la table de Festen"</a> | Le Monde
