@@ -1,6 +1,6 @@
 ---
 title: '"Ma rencontre avec Cyril Teste"'
-date: 2019-01-22 09:34:00 Z
+date: 2018-01-23 09:34:00 Z
 img: "/uploads/20171124_183452-1_thumb.jpg"
 ---
 
@@ -14,6 +14,8 @@ Ce drame familial s'articule en effet autour d'un repas, rassemblant famille et 
 C'est ainsi qu'une véritable cuisine prend place dans le décor, où de vrais plats sont envoyés en direct et changent tous les 3 jours : Carpaccio de St-Jacques & vinaigrette de pomélos, Filet de canette & sa purée de vitelottes aux amandes ou Pavé de thon rouge, chutney de fruits exotiques & vinaigrette mangue-safran.
 
 Olivier a ainsi pu mettre à contribution son expérience de cuisinier et sa passion pour le théâtre, en créant des plats adaptés pour cette prestation très spéciale (tant visuellement que techniquement), mais également distiller ses conseils à l'acteur tenant le rôle du Cuisinier ou au personnel de service.
+
+![20171124_183452-1_thumb.jpg](/uploads/20171124_183452-1_thumb.jpg)
 
 ---
 
