@@ -1,6 +1,7 @@
 ---
 title: 'SOLIDAYS 2018 : 20 ans de délicieux partage !'
 date: 2019-01-22 08:41:00 Z
+img: "/uploads/Screen_Shot_2018-09-27_at_09_40_58.png"
 ---
 
 Cette année encore, l'équipe OT était de la partie pour célébrer l'amour et le partage à l'Hippodrome de Longchamp, lors du festival incontournable de l'été : les Solidays.
