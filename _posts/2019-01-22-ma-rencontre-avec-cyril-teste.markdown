@@ -2,7 +2,7 @@
 title: '"Ma rencontre avec Cyril Teste"'
 date: 2019-01-22 09:34:00 Z
 published: false
-img: public/img/photos/20171124_183452-1.jpg
+img: "/uploads/20171124_183452-1_thumb.jpg"
 ---
 
 Suite à la sortie "en salle" - ou plutôt sur les planches - de Festen, l'adaptation théâtrale de Cyril Teste du long-métrage danois (Thomas Vinterberg - 1998), Olivier Théron revient sur son expérience et sa participation à ce projet renversant. Renversant par son originalité, sa performance filmique et par sa justesse bouleversante et grinçante. \
