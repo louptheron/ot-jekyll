@@ -15,7 +15,9 @@ px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) {
   .margin-assiette {
-    margin-top: 5em;
+    margin-top: 0em;
+    width: 85%;
+    float: right;
   }
 
   header .navbar-header-top-right {

@@ -1231,8 +1231,8 @@ footer .footer-manu ul li a:hover {
 
 
 .instagram_list img {
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   display: block;
   margin-top: 20px;
   border-radius: 4px;
@@ -1253,10 +1253,11 @@ footer .footer-manu ul li a:hover {
   transform: scale(1.1);
 }
 .instagram_list img {
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   display: block;
-  margin-top: 20px;
+  margin-top: 35px;
+  margin-left: 35px;
   border-radius: 4px;
   transition: all 220ms ease-in-out;
   object-fit: cover;
