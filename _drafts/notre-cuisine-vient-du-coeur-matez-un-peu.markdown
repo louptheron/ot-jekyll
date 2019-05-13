@@ -3,6 +3,7 @@ title: Notre cuisine vient du cœur, matez un peu.
 date: 2019-04-10 12:54:00 Z
 img:
 - "/uploads/IMG_8219-1.jpg"
+layout: post
 ---
 
 Nos créations, elles se pensent et se façonnent à plusieurs mains.
