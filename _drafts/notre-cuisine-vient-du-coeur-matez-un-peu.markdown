@@ -1,8 +1,8 @@
 ---
 title: Notre cuisine vient du cœur, matez un peu.
 date: 2019-04-10 12:54:00 Z
-Img:
-- "/uploads/OT_photoshootV2.00_00_15_18.Still005.jpg"
+img: "/uploads/OT_photoshootV2.00_00_15_18.Still005carr%C3%A9.png"
+layout: post
 ---
 
 Nos créations, elles se pensent et se façonnent à plusieurs mains.
@@ -18,3 +18,6 @@ Merci @ Frédéric Leschallier, qui a su comprendre et retranscrire cette délic
 Aperçu de cet alléchant shooting juste ici. (Parce qu’il nous connait plus que bien aussi, cet Alex @Sadhillfilms)
 
 \#Coeuraveclesdoigts
+
+
+<iframe src="https://player.vimeo.com/video/322479038" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
