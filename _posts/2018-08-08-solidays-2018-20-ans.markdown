@@ -20,5 +20,8 @@ Alors, déjà hâte de savourer la saison 2019 ?! En tout cas, nous oui ! :)
 <iframe src="https://player.vimeo.com/video/280748267" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/280748267">Olivier Théron : Solidays 2018 (part. 02)</a> from <a href="https://vimeo.com/sadhillfilms">Sad Hill Films</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+<iframe src="https://player.vimeo.com/video/281520080" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/281520080">Olivier Th&eacute;ron : Solidays 2018 (part. 03)</a> from <a href="https://vimeo.com/sadhillfilms">Sad Hill Films</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 <iframe src="https://player.vimeo.com/video/282275414" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/282275414">Olivier Théron : Solidays 2018 after movie</a> from <a href="https://vimeo.com/sadhillfilms">Sad Hill Films</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
