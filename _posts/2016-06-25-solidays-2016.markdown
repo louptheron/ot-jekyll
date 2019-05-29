@@ -1,6 +1,7 @@
 ---
 title: Solidays 2016
-date: 2019-05-29 15:19:00 Z
+date: 2016-06-25 15:19:00 Z
+img: "/uploads/solidays2016.jpg"
 ---
 
 Petit souvenir des Solidays 2016 en prime, découvrez la vidéo interview d'Olivier Théron.
