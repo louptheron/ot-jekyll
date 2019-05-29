@@ -5,7 +5,7 @@ img: "/uploads/BFM.jpg"
 Field name: 
 ---
 
-2:00" de léchage de babines et de pure gourmandise !
+de léchage de babines et de pure gourmandise !
 
 Merci BFMParis pour la visite et pour ces belles images.
 Bon, on passe à table ?!![BFM.jpg](/uploads/BFM.jpg)
