@@ -1,0 +1,12 @@
+---
+title: Solidays 2017
+date: 2017-06-23 15:23:00 Z
+img: "/uploads/solidays2017.jpg"
+---
+
+Retour en image sur le festival Solidays de 2017 !
+
+
+
+<iframe src="https://player.vimeo.com/video/238307255" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/238307255">Solidays 2017 | Olivier Theron</a> from <a href="https://vimeo.com/oliviertheron">Olivier Theron</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
