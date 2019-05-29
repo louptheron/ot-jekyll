@@ -4,7 +4,9 @@ date: 2019-05-29 14:03:00 Z
 img: "/uploads/BFM.jpg"
 ---
 
-2:00'' de léchage de babines et de pure gourmandise !
+2:00" de léchage de babines et de pure gourmandise !
 
 Merci BFMParis pour la visite et pour ces belles images.
 Bon, on passe à table ?!
+
+<iframe src="https://player.vimeo.com/video/339111445" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
