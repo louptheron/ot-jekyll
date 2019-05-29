@@ -1,5 +1,5 @@
 ---
-title: Revlon Style Master Show 2017
+title: Revlon Style Masters Show 2017
 date: 2017-05-08 14:59:00 Z
 img: "/uploads/revlon.jpg"
 ---
