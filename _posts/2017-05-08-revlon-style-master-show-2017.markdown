@@ -1,6 +1,7 @@
 ---
 title: Revlon Style Master Show 2017
-date: 2019-05-29 14:59:00 Z
+date: 2017-05-08 14:59:00 Z
+img: "/uploads/revlon.jpg"
 ---
 
 Nous avions envie de vous faire revivre un de nos événements marquants de 2017 (et pas n'importe lequel...) : Revlon Style Masters Show à Bruxelles !
