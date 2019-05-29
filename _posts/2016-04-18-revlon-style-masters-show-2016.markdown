@@ -1,6 +1,7 @@
 ---
 title: Revlon Style Masters Show 2016
 date: 2016-04-18 15:14:00 Z
+img: "/uploads/revlon2016.jpg"
 ---
 
 Retour en images - et en nostalgie - sur l'un des challenges fous de l'équipe OT !
