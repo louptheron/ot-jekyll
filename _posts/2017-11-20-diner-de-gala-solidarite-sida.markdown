@@ -1,5 +1,5 @@
 ---
-title: Dîner de Gala - Solidarité Sida
+title: Dîner de Gala 2017 - Solidarité Sida
 date: 2017-11-20 09:35:00 Z
 img: "/uploads/IMG_8219-1.jpg"
 ---
