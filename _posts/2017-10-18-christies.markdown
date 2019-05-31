@@ -1,6 +1,7 @@
 ---
 title: 44ème édition de la Fiac chez Christie's
 date: 2017-10-18 10:57:00 Z
+img: "/uploads/christies.png"
 ---
 
 L'équipe d'Olivier Théron est convaincue que la Cuisine est un art à part entière.
