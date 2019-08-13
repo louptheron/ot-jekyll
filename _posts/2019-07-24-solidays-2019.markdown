@@ -1,7 +1,7 @@
 ---
 title: Solidays 2019
 date: 2019-07-24 09:05:00 Z
-Field name: "/uploads/solidays19_1400x800.jpg"
+img: "/uploads/solidays19_1400x800.jpg"
 ---
 
 L’édition 2019 des Solidays fût… Comment vous dire… Encore plus bouillante que celle de 2018 ! #chaleurdanstoncoeur
