@@ -10,3 +10,4 @@ Mercredi soir nous étions au 20ans de Lavinia Boulevard de la Madeleine
 /uploads/DSC00351-b0fb1c.jpg
 /uploads/DSC00343-331c55.jpg
 /uploads/DSC00387.jpg
+/uploads/DSC00312.JPG
