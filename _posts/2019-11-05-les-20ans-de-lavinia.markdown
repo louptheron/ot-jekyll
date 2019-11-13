@@ -1,0 +1,13 @@
+---
+title: Les 20ans de Lavinia
+date: 2019-11-05 18:58:00 Z
+published: false
+"/uploads/DSC00280.JPG": 
+---
+
+Mercredi soir nous étions au 20ans de Lavinia Boulevard de la Madeleine
+/uploads/DSC00305-a03790.jpg
+/uploads/DSC00351-b0fb1c.jpg
+/uploads/DSC00343-331c55.jpg
+/uploads/DSC00387.jpg
+/uploads/DSC00312.JPG
