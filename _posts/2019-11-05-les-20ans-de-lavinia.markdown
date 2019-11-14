@@ -1,7 +1,7 @@
 ---
 title: Les 20 ans de Lavinia
 date: 2019-11-05 18:58:00 Z
-"/uploads/DSC00280-cf375f.jpgKey": "/uploads/DSC00280-cf375f.jpg"
+"/uploads/DSC00280.JPG": "/uploads/DSC00280.JPG"
 ---
 
 Pour les 20 ans de Lavinia , nous étions présents pour une soirée cocktail intimiste dans les belles caves voutées de la boutique.
