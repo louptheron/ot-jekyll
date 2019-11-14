@@ -4,7 +4,7 @@ date: 2019-11-05 18:58:00 Z
 img: "/uploads/DSC00280.JPG"
 ---
 
-Pour les 20 ans de Lavinia , nous étions présents pour une soirée cocktail intimiste dans les belles caves voutées de la boutique.
+Pour les 20 ans de Lavinia , nous étions présents pour une soirée cocktail et dégustation de grands crus dans le temple des sommeliers.
 
 Retour en image sur la beauté du lieu :
 
