@@ -10,5 +10,5 @@ Retour en image sur la beauté du lieu :
 ![DSC00351-b0fb1c.jpg](/uploads/DSC00351-b0fb1c.jpg)
 ![DSC00343-331c55.jpg](/uploads/DSC00343-331c55.jpg)
 ![DSC00387.jpg](/uploads/DSC00387.jpg)
-[DSC00312.JPG](/uploads/DSC00312.JPG)
+![DSC00312.JPG](/uploads/DSC00312.JPG)
 ![DSC00327-a02816.jpg](/uploads/DSC00327-a02816.jpg)
